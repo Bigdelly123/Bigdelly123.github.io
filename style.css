@@ -1,1 +1,68 @@
+.box_red {
+  border: solid red 3px;
+  height: 200px;
+  background-color:red;
+
+}
+
+.box_green {
+  border: solid green 3px;
+  height: 200px;
+  background-color:green;
+}
+
+.box_purple {
+  border: solid purple 3px;
+  height: 200px;
+  background-color:purple;
+
+}
+
+.box_blue {
+  border: solid blue 3px;
+  height: 200px;
+  background-color:blue;
+}
+
+.flex{
+  height:90%;
+  margin-top: 10px;
+  margin-left:20px;
+  margin-right:20px;
+  display:flex;
+  flex-direction: row;
+}
+
+.flex1a{
+  margin:5px;
+  flex:1;
+  border:solid black;
+  
+}
+
+
+.flex1b{
+  margin:5px;
+  flex:1;
+  border:solid black;
+}
+
+.flex1c{
+  margin:5px;
+  flex:1;
+  border:solid black;
+}
+
+.flex1d{
+  margin:5px;
+  flex:1;
+  border:solid black;
+}
+
+
+.flex1e{
+  margin:5px;
+  flex:1;
+  border:solid black;
+}
 
