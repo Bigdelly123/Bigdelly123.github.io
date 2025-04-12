@@ -1,58 +1,105 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <script src="script.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
-  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-  <div>
-      <button onclick="showit('divvy1')">Home</button>
-      <button onclick="showit('divvy2')">Shop all</button>
-      <button onclick="showit('divvy3')">Shop by category</button>
-      <button onclick="showit('divvy4')">More</button>
+  <div class="MomDiv">
+    <script src="script.js"></script>
+
+    <div class="header">Style All Year</div>
+
+    <div>
+      <button class="button" onclick="showit('divvy1')">Home</button>
+      <button class="button" onclick="showit('divvy2')">Pants</button>
+      <button class="button" onclick="showit('divvy3')">Jackets</button>
+      <button class="button" onclick="showit('divvy4')">Jeans</button>
     </div>
 
-    <div id="divvy1">
-      <div class="box_red">
-        <div class="flex">
-          <div class="flex1a">This</div>
-          <div class="flex1b">is</div>
-        </div>
-      </div>
-    </div>
-    <div id="divvy2">
-      <div class="box_green">
-        <div class="flex">
-          <div class="flex1a">This</div>
-          <div class="flex1b">is</div>
-          <div class="flex1c">not</div>
-        </div>
-      </div>
-    </div>
-    <div id="divvy3">
-      <div class="box_purple">
-        <div class="flex">
-          <div class="flex1a">This</div>
-          <div class="flex1b">is</div>
-          <div class="flex1c">not</div>
-          <div class="flex1d">very</div>
-        </div>
-      </div>
-    </div>
-    <div id="divvy4">
-      <div class="box_blue">
-         <div class="flex">
-          <div class="flex1a">This</div>
-          <div class="flex1b">is</div>
-          <div class="flex1c">not</div>
-          <div class="flex1d">very</div>
-          <div class="flex1e">interesting</div>
+    <!-- Home -->
+    <div id="divvy1" style="display:block">
+      <div class="box red">
+        <div class="boxholder">
+          <div class="homeboxers">
+            <img class="pic" src="https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+          </div>
 
+          <div class="flexdiver">
+            <div class="box2ers">Timeless Wardrobe Staples</div>
+            <div class="box3ers">
+              Discover fashion that's built for every season. From cozy jackets to breathable pants and rugged jeans—style meets comfort and versatility here.
+            </div>
+            <div class="box4ers">
+              <span class="material-symbols-outlined">shopping_bag</span>
+              <span class="material-symbols-outlined">support_agent</span>
+              <div onclick="window.open('https://youtu.be/dQw4w9WgXcQ');" style="cursor: pointer;">
+                <span class="material-symbols-outlined">styler</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Pants -->
+    <div id="divvy2" style="display:none">
+      <div class="box blue">
+        <div class="boxholder">
+          <div class="boxers">
+            Why Our Pants?
+            • Breathable Fabrics: Made for movement and comfort.<br>
+            • Stylish Cuts: From slim to relaxed, find your fit.<br>
+            • Durable Quality: Built to last through any season.
+          </div>
+          <div class="flexdiver">
+            <div class="box2ers">Perfect Pants</div>
+            <div class="box3ers">1. Classic Chinos: Lightweight, polished, and perfect for work or play.</div>
+            <div class="box4ers">2. Cargo Comfort: Utility-inspired with maximum comfort and storage.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jackets -->
+    <div id="divvy3" style="display:none">
+      <div class="box yellow">
+        <div class="boxholder">
+          <div class="boxers">
+            Our Outerwear Collection
+            • Seasonal Layers: Lightweight or insulated for every climate.<br>
+            • Signature Style: Elevate any outfit instantly.<br>
+            • Functional Fashion: Designed with you in mind.
+          </div>
+          <div class="flexdiver">
+            <div class="box2ers">Jacket Picks</div>
+            <div class="box3ers">1. Windbreaker Pro: Sleek, water-resistant, and adventure-ready.</div>
+            <div class="box4ers">2. Sherpa-Lined Denim: Vintage vibe meets modern warmth.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jeans -->
+    <div id="divvy4" style="display:none">
+      <div class="box green">
+        <div class="boxholder">
+          <div class="boxers">
+            Built to Last
+            • Premium Denim: Stretchy, stylish, and strong.<br>
+            • Eco-Friendly Washes: Made sustainably without sacrificing style.<br>
+            • All-Day Wear: From casual hangs to late-night runs.
+          </div>
+          <div class="flexdiver">
+            <div class="box2ers">Go-To Jeans</div>
+            <div class="box3ers">1. Skinny Fit: Clean lines with maximum flexibility.</div>
+            <div class="box4ers">2. Relaxed Straight: A timeless fit for everyone.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
 </body>
-  
 </html>
