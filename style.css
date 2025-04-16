@@ -1,68 +1,135 @@
-.box_red {
-  border: solid red 3px;
-  height: 200px;
-  background-color:red;
-
+html{
+  height:100%;
+  width: 100%;
+  
+  
+}
+body{
+  height:100%;
+  margin: 0;
+}
+div{
+ margin:px;
 }
 
-.box_green {
-  border: solid green 3px;
-  height: 200px;
-  background-color:green;
+.header{
+  height: 25px;
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  box-shadow: 2 5px 5px black;
+  border-radius: 5%;
+  border: solid 3px;
 }
 
-.box_purple {
-  border: solid purple 3px;
-  height: 200px;
-  background-color:purple;
-
+.button{
+  width: 90px;
+  background-color: white;
+  Color: black;
+  transition: .5s;
 }
 
-.box_blue {
-  border: solid blue 3px;
-  height: 200px;
-  background-color:blue;
+.button:hover {
+  width: 90px;
+  background-color: grey;
+  Color: white;
 }
 
-.flex{
-  height:90%;
-  margin-top: 10px;
-  margin-left:20px;
-  margin-right:20px;
-  display:flex;
-  flex-direction: row;
-}
 
-.flex1a{
-  margin:5px;
-  flex:1;
-  border:solid black;
+.box{
+  height: 100%;
+  width: 100%;
+  border: solid 3px black;
   
 }
 
 
-.flex1b{
-  margin:5px;
-  flex:1;
-  border:solid black;
+.red{
+  background-image: linear-gradient(to bottom, skyblue, white);
 }
 
-.flex1c{
-  margin:5px;
-  flex:1;
-  border:solid black;
+.blue{
+  background-image: linear-gradient(to bottom, lightyellow, white);
+}
+.yellow{
+ background-image: linear-gradient(to bottom, orange, white);
+}
+.green{
+ background-image: linear-gradient(to bottom, brown, white);
+}
+.purple{
+ background-image: linear-gradient(to bottom, lightblue, white);
 }
 
-.flex1d{
-  margin:5px;
-  flex:1;
-  border:solid black;
+.boxholder{
+  display: flex;
+}
+
+.boxers{
+  flex: 1;
+  height: 300px;
+  min-width: 200px;
+  max-width: 300px;
+  margin-left: 5%;
+  border: solid 3px;
+}
+
+.homeboxers{
+  flex: 1;
+  height: 400px;
+  min-width: 100px;
+  max-width: 600px;
+  margin-left: 5%;
+  border: solid 3px;.pic{
+  width: 100%;
+  height: 100%;
+}
+}
+.flexdiver{
+  display: flex;
+  flex-direction: column;
+}
+
+.box2ers{
+  flex: 2;
+  height: 100px;
+  min-width: 200px;
+  max-width: 300px;
+  margin-left: 5%;
+  border: solid 3px;
 }
 
 
-.flex1e{
-  margin:5px;
-  flex:1;
-  border:solid black;
+.box3ers{
+  flex: 2;
+  height: 100px;
+  min-width: 200px;
+  max-width: 300px;
+  margin-left: 5%;
+  border: solid 3px;
+}
+.box4ers{
+  flex: 2;
+  height: 100px;
+  min-width: 200px;
+  max-width: 300px;
+  margin-left: 5%;
+  border: solid 3px;
+  margin-top: 5%;
 }
 
+
+.loading{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom,yellow,white);
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  to{
+    transform: rotate(360deg)
+  }
+}
